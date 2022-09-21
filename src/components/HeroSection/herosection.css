@@ -1,0 +1,57 @@
+.herosection__container {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  width: 100%;
+}
+
+.title__section {
+  position: static;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-div {
+  margin-left: -4%;
+}
+
+.okay__color {
+  position: absolute;
+  display: flex;
+}
+
+.okay__dark,
+.okay__color {
+  position: absolute;
+  display: flex;
+  width: 800px;
+  height: 420px;
+}
+
+.o-div,
+.k-div,
+.a-div,
+.y-div {
+  height: 100%;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+.okay__dark img,
+.okay__color img {
+  height: 100%;
+}
+
+.a-div img {
+  margin-left: -4%;
+}
+
+.okay__dark .o-div:hover,
+.okay__dark .k-div:hover,
+.okay__dark .a-div:hover,
+.okay__dark .y-div:hover {
+  mix-blend-mode: color-dodge;
+}

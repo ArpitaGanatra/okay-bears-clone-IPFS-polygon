@@ -1,0 +1,22 @@
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  padding: 2rem 0;
+  z-index: 111111;
+}
+
+.copyright,
+.terms {
+  font-size: 0.875rem;
+  color: #bb9772;
+  line-height: 125%;
+}
+.copyright a,
+.terms a {
+  /* text-decoration: none; */
+  color: #bb9772;
+  cursor: pointer;
+  pointer-events: auto;
+}

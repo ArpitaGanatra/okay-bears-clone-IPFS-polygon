@@ -1,11 +1,15 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
+import "remixicon/fonts/remixicon.css";
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
