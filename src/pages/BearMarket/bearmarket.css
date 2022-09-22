@@ -1,0 +1,9 @@
+.bearmarket__container {
+  width: 80vw;
+  margin: auto;
+}
+
+.main__title h1 {
+  font-size: 1.5rem;
+  letter-spacing: 0.145rem;
+}

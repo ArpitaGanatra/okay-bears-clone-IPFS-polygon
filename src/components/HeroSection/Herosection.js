@@ -29,6 +29,11 @@ const Herosection = () => {
               src="https://assets-global.website-files.com/621f2ae39342fe5b34cc196f/6229aa571d28bf0b7a90af8f_Yellow_Y.png"
               alt="y-colored"
             />
+            <img
+              className="bears-hero-img"
+              src="https://assets-global.website-files.com/621f2ae39342fe5b34cc196f/62205a99f178ba61ca99ec90_TitleSection-Bears.svg"
+              alt=""
+            />
           </div>
         </div>
 

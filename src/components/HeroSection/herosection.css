@@ -1,6 +1,6 @@
 .herosection__container {
   position: absolute;
-  height: 100vh;
+  height: calc(100%-100px);
   top: 0;
   width: 100%;
 }
@@ -38,6 +38,8 @@
   height: 100%;
   width: 100%;
   mix-blend-mode: multiply;
+  display: flex;
+  flex-direction: row;
 }
 
 .okay__dark img,
@@ -54,4 +56,11 @@
 .okay__dark .a-div:hover,
 .okay__dark .y-div:hover {
   mix-blend-mode: color-dodge;
+}
+
+.bears-hero-img {
+  width: 100%;
+  height: 200px !important;
+  margin-top: auto;
+  margin-left: -40%;
 }

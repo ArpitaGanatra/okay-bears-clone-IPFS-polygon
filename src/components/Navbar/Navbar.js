@@ -16,10 +16,18 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="right__container">
-        <Link className="link">Home</Link>
-        <Link className="link">Bear Market</Link>
-        <Link className="link">Park</Link>
-        <Link className="link">BluePrint</Link>
+        <Link to="/" className="link">
+          Home
+        </Link>
+        <Link to="/bear-market" className="link">
+          Bear Market
+        </Link>
+        <Link className="link" to="/">
+          Park
+        </Link>
+        <Link className="link" to="/">
+          BluePrint
+        </Link>
         <span className="link">
           <i class="ri-twitter-line"></i>
         </span>

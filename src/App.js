@@ -1,15 +1,12 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./pages/Home";
 import "remixicon/fonts/remixicon.css";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <div className="app">
+      <Layout />
+    </div>
   );
 }
 

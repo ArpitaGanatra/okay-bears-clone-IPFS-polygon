@@ -3,8 +3,15 @@
   align-items: center;
   justify-content: space-between;
   width: 80vw;
+  margin: auto;
   padding: 2rem 0;
   z-index: 111111;
+  position: static;
+  margin-top: auto;
+  display: flex;
+  order: 1;
+  align-self: auto;
+  margin-bottom: 0px;
 }
 
 .copyright,
